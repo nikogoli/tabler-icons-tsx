@@ -1,6 +1,8 @@
-# TSX Tabler Icons
+# TSX Tabler Icons with preact-pragma
+Forked from [hashrock/tabler-icons-tsx](https://github.com/hashrock/tabler-icons-tsx)
 
-Easy to use [Tabler Icons](https://tabler-icons.io/) in your Fresh app. Just
-import the icons.
-
-<img width="846" alt="image" src="https://user-images.githubusercontent.com/3132889/197344686-b3581da8-01ba-4c81-b61d-95967f768f63.png">
+fork 元の各.tsx ファイルの先頭に以下の pragma を追記することで fresh 以外でも利用できるようにしたファイル群
+```ts
+/** @jsx h */
+import { h } from "https://esm.sh/preact@10.10.6"
+```
