@@ -1,3 +1,6 @@
+/** @jsx h */
+import { h } from "https://esm.sh/preact@10.10.6"
+
 function IconCircleArrowDownLeftFilled({
   size = 24,
   color = "currentColor",
